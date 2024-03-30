@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function App {
+function App() {
     return (
         <>
             <h1>Hello world!</h1>
