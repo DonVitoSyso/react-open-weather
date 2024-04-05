@@ -1,0 +1,38 @@
+header {
+    color: white;
+    background-color: black;
+    height: 80px;
+    /* border-radius: 0.3cap; */
+    /* Ниже пишем выравнивание такста по центру div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .some-button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header.NavbarMy {
+    background-color: rgb(69, 69, 69);
+    height: auto;
+    display: grid;
+}
+
+input {
+    font-size: 1rem;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.select {
+    display: grid;
+    justify-self: center;
+}
+
+h3 {
+    margin: auto;
+}
