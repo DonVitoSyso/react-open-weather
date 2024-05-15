@@ -7,6 +7,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-items: center;
 }
 
 header .some-button {
@@ -15,10 +16,11 @@ header .some-button {
     padding: 10px;
 }
 
-header.NavbarMy {
+.NavbarMy {
     background-color: rgb(69, 69, 69);
     height: auto;
     display: grid;
+    justify-items: center;
 }
 
 input {
@@ -26,6 +28,7 @@ input {
     padding: 2px 5px;
     border-radius: 5px;
     margin: 10px;
+    width: auto;
 }
 
 .select {
@@ -35,4 +38,5 @@ input {
 
 h3 {
     margin: auto;
+    text-align: center;
 }

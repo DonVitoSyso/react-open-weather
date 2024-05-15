@@ -32,7 +32,7 @@ function Geo() {
 
     return (
         <>
-            <h2> Crd lng - {crd_lgt}</h2>
+            {/* <h2> Crd lng - {crd_lgt}</h2> */}
         </>
     );
 }
